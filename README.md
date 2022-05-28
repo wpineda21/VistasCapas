@@ -1,5 +1,2 @@
-# VistasCapas
-
-
-Ya antojaron 
+Viva el guaro :v
 
