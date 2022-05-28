@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="google-signin-client_id"
+      content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Perfil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/examresults.css" />
+  </head>
+
+
+  <body class="BackG-SingUpColor">
+    <nav class="navbar navbar-expand-lg bg-light navbar-BackGround">
+      <div class="container-fluid">
+        <!--Logo dentro de la navbar-->
+        <img class="border" src="./images/logi.jfif " alt="40px" width="40px" />
+
+        <!--Botones dentro de la navbar-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="btn nav-link navbar-home" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="btn nav-link navbar-home" href="#">About</a>
+            </li>
+            <div class="dropdown">
+              <a
+                type="button"
+                class="btn nav-link navbar-home dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu dropdown-content">
+                <li>
+                  <h5 class="dropdown-header allign-text">We Make Available</h5>
+                </li>
+                <li><a class="dropdown-item" href="#">Exam Registration</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Hours For Taking Medication</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Expense Account</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Healthy Staus History</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Graphical Represetation of the state of Healthy</a
+                  >
+                </li>
+                <li>
+                  <h5 class="dropdown-header allign-text">We Make Available</h5>
+                </li>
+                <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
+              </ul>
+            </div>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-secondary button-textcolor"
+              type="submit"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Parte texto Perfil y la hora-->
+  <div class="container-fluid">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col text-center">
+            <h1>Exam results</h1>
+          </div>  
+          <div class="col">
+                <h1 class="text-white">(Hora Actual)</h1>
+            </div>
+        </div>
+    
+        <!--Parte Tablas-->    
+        <div class="rectangle0">
+        <div class="rectangle1">    
+        
+        <!--Fila1 Exam# y fecha-->    
+        <div class="row">
+        <div class="col-4">
+            <div class="examnumber">
+                Exam #
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="blanckspace"></div>
+        </div>
+        <div class="col-4">
+          <div class="date">Date 12/12/2022</div>  
+        </div>
+
+        </div>
+
+        <!--Fila2 Muestra de detalles del examen-->    
+        <div class="row">
+        <div class="examinfo">
+            <table CELLPADDING="25">
+                <tr>
+                  <th>Nombre</th>
+                  <th>Doctor</th>
+                  <th>Situacion</th>
+                  <th>Medicamento citado</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Gripe</td>
+                  <td>Tabcin</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Diarrea</td>
+                  <td>Pepto</td>
+                </tr>
+              </table> 
+        </div>
+        </div>
+
+        <!--Fila3 Boton Return y descarga-->    
+        <div class="row">
+        <div class="col-4">
+            <div class="btnback">
+                <a class="btn-back">Regresar</a>
+                </div>
+        </div>
+        <div class="col-4">
+            <div class="blanckspace"></div>
+        </div>
+        <div class="col-4">
+            <div class="btndownload">
+        <a class="btn-download">Descargar</a>
+        </div>
+        </div>
+
+
+        </div>
+
+
+
+        </div>
+        </div>
+    </div>
+    
+
+  </body>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+  integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+  crossorigin="anonymous"
+  ></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+  integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+  crossorigin="anonymous"
+  ></script>
+</html>

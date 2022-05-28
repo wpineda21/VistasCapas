@@ -1,0 +1,77 @@
+/* Decoracion fondos*/
+
+.rectangle0{
+    background-color: darkslateblue;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: .5rem;
+    padding: 1%;
+}
+
+.rectangle1{
+    background-color: lightgray;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: .5rem;
+    padding: 2%;
+}
+
+/* Fila 1 */
+.examnumber{
+    font-size: xx-large;
+}
+
+.date{
+    font-size: xx-large;
+    text-align: end;
+}
+
+
+/* Fila 2 estilo de tabla donde se muestra examenes */
+.examinfo>table{
+    text-align: start;
+    
+}
+
+/* Fila 3 botones para regresar y descargar */
+.btnback{
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.btn-back{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: gray;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.btn-back:hover{
+    color: white;
+    background-color: lightcoral;
+  }
+
+
+
+.btndownload{
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+.btn-download{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: forestgreen;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.btn-download:hover{
+    color: black;
+    background-color: lightgreen;
+  }
