@@ -7,7 +7,7 @@
       content="YOUR_CLIENT_ID.apps.googleusercontent.com"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exam Results</title>
+    <title>Exam Registration</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,9 +29,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <script src="./js/getterTime.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/examresults.css" />
+    <link rel="stylesheet" href="./css/examRegistration.css" />
   </head>
 
 
@@ -114,89 +115,158 @@
         </div>
       </div>
     </nav>
-    
     <!--Parte texto Perfil y la hora-->
   <div class="container-fluid">
         <div class="row">
-          <div class="col-4"></div>
           <div class="col text-center">
-            <h1>Exam results</h1>
+            <h1>Exam Registration</h1>
           </div>  
           <div class="col">
-                <h1 class="text-white">(Hora Actual)</h1>
+            <div id="irlTime">
+                00 : 00 : 00
+               </div>
             </div>
         </div>
     
-        <!--Parte Tablas-->    
-        <div class="rectangle0">
-        <div class="rectangle1">    
+    <!--Parte Tablas-->    
+    <div class="rectangle1">
+    <div class="row">
         
-        <!--Fila1 Exam# y fecha-->    
+        <!--Fila 1--> 
         <div class="row">
-        <div class="col-4">
-            <div class="examnumber">
-                Exam #
+          <div class="col">
+            <div class="caja">
+            <div class="titulo">
+              Medication 1 
+              <div class="medTime">
+                Hour: 00:00
             </div>
-        </div>
-        <div class="col-4">
-            <div class="blanckspace"></div>
-        </div>
-        <div class="col-4">
-          <div class="date">Date 12/12/2022</div>  
-        </div>
-
-        </div>
-
-        <!--Fila2 Muestra de detalles del examen-->    
-        <div class="row">
-        <div class="examinfo">
-            <table CELLPADDING="25">
-                <tr>
-                  <th>Nombre</th>
-                  <th>Doctor</th>
-                  <th>Situacion</th>
-                  <th>Medicamento citado</th>
-                </tr>
-                <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Gripe</td>
-                  <td>Tabcin</td>
-                </tr>
-                <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Diarrea</td>
-                  <td>Pepto</td>
-                </tr>
-              </table> 
-        </div>
+            </div>
+            <div class="campo">
+                <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                    View role
+                </button>
+            </div>
+          </div>
+          </div>
+          <div class="col">
+            <div class="caja">
+            <div class="titulo">
+              Medication 2 
+              <div class="medTime">
+                  Hour: 00:00
+              </div>
+            </div>
+            <div class="campo">
+                <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                    View role
+                </button>
+            </div>
+          </div>
+          </div>
         </div>
 
-        <!--Fila3 Boton Return y descarga-->    
-        <div class="row">
-        <div class="col-4">
-            <div class="btnback">
-                <a class="btn-back">Regresar</a>
-                </div>
+      <!--Fila 2--> 
+      <div class="row">
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 3 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
         </div>
-        <div class="col-4">
-            <div class="blanckspace"></div>
         </div>
-        <div class="col-4">
-            <div class="btndownload">
-        <a class="btn-download">Descargar</a>
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 4 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
         </div>
         </div>
+      </div>
 
-
+    <!--Fila 3--> 
+    <div class="row">
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 5 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
         </div>
-
-
-
+        </div>
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 6 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
         </div>
         </div>
-    </div>
+      </div>
+
+      <!--File 4-->
+      <div class="row">
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 7 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="caja">
+          <div class="titulo">
+            Medication 8 
+            <div class="medTime">
+                Hour: 00:00
+            </div>
+          </div>
+          <div class="campo">
+            <button class="btn btn-outline-secondary button-textcolor" type="submit">
+                View role
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
     
 
   </body>
