@@ -1,0 +1,306 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style type="text/css">@font-face {
+            font-family: 'lt_bold';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_bold_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-bolditalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_italic';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt_regular';
+            src: url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/lato/lt-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-hairline';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-hairline-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'lt-thinitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/lt-thinitalic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'champagne';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/champagne-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'indie';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/indie-flower-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bebas';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/bebasneue_regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'bree';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/breeserif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'spartan';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/leaguespartan-bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'montserrat';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/montserrat-medium-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sanscondensed';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-condlight-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'open_sansitalic';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/opensans-italic-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'playfair';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/playfairdisplay-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'raleway';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/raleway-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'courier_prime';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff2') format('woff2'),
+                url('https://app.creately.com/diagram/assets/fonts/embed/courier_prime-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'droid_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/droid-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'abhaya_libreregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/abhaya-libre-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'gandhi_serifregular';
+            src: url('https://app.creately.com/diagram/assets/fonts/embed/gandhi-serif-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        p {
+            margin: 0;
+        }</style>
+ </defs>
+ <defs>
+  <style>span{ display: inline-block; }</style>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="302" width="302" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_80">
+   <g stroke="null" id="MUoeC0vfbAP">
+    <g stroke="null" id="svg_1">
+     <path stroke="#7e7e7e" id="svg_2" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(255,255,255)" d="m12.99075,14.68873l0,264.52594l274.69444,0l-274.69444,0m0,-270.21467l-3.15741,5.68873l6.31481,0l-3.15741,-5.68873m281.00925,270.21467l-6.31481,-2.84436l0,5.68873l6.31481,-2.84436"/>
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_3" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgba(255,255,255,0.01)" height="273.05903" width="284.16666" y="9" x="9.83334"/>
+    </g>
+    <g stroke="null" id="svg_4">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_5" y="-51.91824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-263.61919"/>
+    </g>
+    <g stroke="null" id="svg_6">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_7" y="208.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-29.04106"/>
+    </g>
+   </g>
+   <g stroke="null" id="jclui3wYNli">
+    <g stroke="null" id="svg_8">
+     <rect stroke="#ffffff" id="svg_9" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="102.39714" width="37.88889" y="173.97317" x="16.14815"/>
+    </g>
+   </g>
+   <g stroke="null" id="ReW6LKBV7zn">
+    <g stroke="null" id="svg_10">
+     <rect stroke="#ffffff" id="svg_11" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="164.97317" width="37.88889" y="111.39714" x="54.03704"/>
+    </g>
+   </g>
+   <g stroke="null" id="oxut3CLC70l">
+    <g stroke="null" id="svg_12">
+     <rect stroke="#ffffff" id="svg_13" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="62.57603" width="37.88889" y="213.79428" x="91.92593"/>
+    </g>
+   </g>
+   <g stroke="null" id="o0yoedixJUG">
+    <g stroke="null" id="svg_14">
+     <rect stroke="#ffffff" id="svg_15" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="182.03936" width="37.88889" y="94.33095" x="129.81482"/>
+    </g>
+   </g>
+   <g stroke="null" id="5tCrdui8D8z">
+    <g stroke="null" id="svg_16">
+     <rect stroke="#ffffff" id="svg_17" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="216.17174" width="37.88889" y="60.19857" x="167.70371"/>
+    </g>
+   </g>
+   <g stroke="null" id="oDfLoanrZ2L">
+    <g stroke="null" id="svg_18">
+     <rect stroke="#ffffff" id="svg_19" stroke-dasharray="0 0" stroke-linejoin="round" stroke-linecap="round" stroke-width="2" fill="rgb(5,79,122)" height="119.46333" width="37.88889" y="156.90698" x="205.59259"/>
+    </g>
+   </g>
+   <g stroke="null" id="4bczJHIooGB">
+    <g stroke="null" id="svg_20">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_21" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="18.94444" y="282.05903" x="41.40741"/>
+    </g>
+    <g stroke="null" id="svg_22">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_23" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-194.04106">10</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_24" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-178.58794"/>
+    </g>
+   </g>
+   <g stroke="null" id="7HjM5dMCaN7">
+    <g stroke="null" id="svg_25">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_26" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.75492" width="18.94444" y="282.05903" x="79.2963"/>
+    </g>
+    <g stroke="null" id="svg_27">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_28" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-134.04106">20</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_29" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-118.58794"/>
+    </g>
+   </g>
+   <g stroke="null" id="3K947i195Ju">
+    <g stroke="null" id="svg_30">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_31" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="18.94444" y="282.05903" x="117.18519"/>
+    </g>
+    <g stroke="null" id="svg_32">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_33" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-74.04106">30</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_34" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-58.58794"/>
+    </g>
+   </g>
+   <g stroke="null" id="K7tQC1Do8pg">
+    <g stroke="null" id="svg_35">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_36" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="18.94444" y="282.05903" x="155.07408"/>
+    </g>
+    <g stroke="null" id="svg_37">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_38" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-14.04106">40</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_39" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="1.41206"/>
+    </g>
+   </g>
+   <g stroke="null" id="uiN3MecO44l">
+    <g stroke="null" id="svg_40">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_41" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="25.25926" y="282.05903" x="192.96297"/>
+    </g>
+    <g stroke="null" id="svg_42">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_43" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="45.95894">50</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_44" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="61.41206"/>
+    </g>
+   </g>
+   <g stroke="null" id="EgzXVMXVo96">
+    <g stroke="null" id="svg_45">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_46" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="25.25926" y="282.05903" x="230.85185"/>
+    </g>
+    <g stroke="null" id="svg_47">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_48" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="105.95894">60</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_49" y="207.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="121.41206"/>
+    </g>
+   </g>
+   <g stroke="null" id="yTp6oil8QRn">
+    <g stroke="null" id="svg_50">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_51" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="31.57407" y="304.81395" x="123.5"/>
+    </g>
+    <g stroke="null" id="svg_52">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_53" y="247.58176" font-family="lt_regular" font-size="10pt" font-weight="bold" fill="#4b4b4b" x="-64.04106">Data</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_54" y="247.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-35.88481"/>
+    </g>
+   </g>
+   <g stroke="null" id="zJChdcYwrIz">
+    <g stroke="null" id="svg_55">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_56" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="18.94444" y="219.48301" x="-15.42592"/>
+    </g>
+    <g stroke="null" id="svg_57">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_58" y="97.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-284.04106">50</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_59" y="97.58176" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-268.58794"/>
+    </g>
+   </g>
+   <g stroke="null" id="jdgX3Rja2Y3">
+    <g stroke="null" id="svg_60">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_61" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="25.25926" y="162.59571" x="-15.42592"/>
+    </g>
+    <g stroke="null" id="svg_62">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_63" y="-2.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-284.04106">100</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_64" y="-2.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-260.85356"/>
+    </g>
+   </g>
+   <g stroke="null" id="ZOGCkTPeFTZ">
+    <g stroke="null" id="svg_65">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_66" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="25.25926" y="105.70841" x="-15.42592"/>
+    </g>
+    <g stroke="null" id="svg_67">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_68" y="-102.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-284.04106">150</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_69" y="-102.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-260.85356"/>
+    </g>
+   </g>
+   <g stroke="null" id="WNdSJFbJMUp">
+    <g stroke="null" id="svg_70">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_71" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="22.18605" width="31.57407" y="48.82111" x="-15.42592"/>
+    </g>
+    <g stroke="null" id="svg_72">
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_73" y="-202.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-284.04106">200</text>
+     <text transform="matrix(0.6314814686775208,0,0,0.5688729882240295,170.2555614709854,177.62432885169983) " stroke="null" id="svg_74" y="-202.41824" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="-260.85356"/>
+    </g>
+   </g>
+   <g stroke="null" id="9thpZeWraN2">
+    <g stroke="null" id="svg_75" transform="matrix(0,-0.5688729882240295,0.6314814686775208,0,43.32778626680374,203.22361332178116) ">
+     <rect stroke="rgba(255,255,255,0.01)" id="svg_76" stroke-dasharray="0 0" fill="rgba(255,255,255,0.01)" height="39" width="80" y="-143.04105" x="71.41824"/>
+    </g>
+    <g stroke="null" id="svg_77" transform="matrix(0,-0.5688729882240295,0.6314814686775208,0,55.95741564035416,203.22361332178116) ">
+     <text stroke="null" id="svg_78" y="-139.04105" font-family="lt_regular" font-size="10pt" font-weight="bold" fill="#4b4b4b" x="81.41824">Frequency</text>
+     <text stroke="null" id="svg_79" y="-139.04105" font-family="lt_regular" font-size="10pt" fill="#4b4b4b" x="143.43387"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
